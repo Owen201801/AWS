@@ -1,0 +1,20 @@
+AWS CLI
+
+**Creat a Bucket***
+
+- aws s3 mb s3://bucket-name23
+
+***Delete a bucket***
+
+- 
+
+Mysql
+mysql> create database videogames;
+mysql> use videogames;
+mysql> create table games (id_game int, game_name varchar(40), game_price float, game_raiting int, console varchar(10));
+mysql> insert into games (id_game,game_name,game_price,game_raiting,console) values (1001,"Fifa 2019", 300.000, 9, "Xbox,Psp");
+mysql> insert into games (id_game,game_name,game_price,game_raiting,console) values (1031,"Gears Of Wars", 400.000,10, "Xbox,Psp"); 
+mysql> insert into games (id_game,game_name,game_price,game_raiting,console) values (1731,"Fornite", 0,10, "Xbox,Psp");
+mysql> insert into games (id_game,game_name,game_price,game_raiting,console) values (1931,"Halo",200.000,8, "Xbox");
+mysql> insert into games (id_game,game_name,game_price,game_raiting,console) values (1931,"God Of War",250.000,8, "PlayStat");
+mysql> insert into games (id_game,game_name,game_price,game_raiting,console) values (1531,"Mario Bros",290000,10, "Wii");
