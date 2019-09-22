@@ -6,6 +6,32 @@ AWS CLI
 
 ***Delete a bucket***
 
+*********************************************************************
+Get objects
+
+aws s3api get-object-acl --bucket bucket-name23 --key Certificado.jpg
+aws s3api get-object-acl --bucket bucket-name23 --key Diploma.jpg
+aws s3api get-object-acl --bucket bucket-name23 --key Certificado.jpg
+
+**********************************************************************
+Delete Objects
+
+aws s3api delete-object --bucket bucket-name23 --key Diploma.jpg
+aws s3api delete-object --bucket bucket-name23 --key ActaDeGrado.jpg
+aws s3api delete-object --bucket bucket-name23 --key Certificado.jpg
+
+***********************************************************************
+
+Upload Objectsclear
+
+aws s3api put-object --bucket bucket-name23 --key Certificado.jpg
+aws s3api put-object --bucket bucket-name23 --key ActaDeGrado.jpg
+aws s3api put-object --bucket bucket-name23 --key Diploma.jpg
+
+
+
+
+--------------------------------------------------------------------------------------------------------------------------------
 - 
 
 Mysql
