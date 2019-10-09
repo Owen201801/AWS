@@ -1,8 +1,7 @@
 import  pymysql.cursors
 
 
-connection = pymysql.connect(host="databaseengine.czjiomcrhfyx.us-east-1.rds.amazonaws.com",
-user="admin",password="owennicolas1",database="schools")
+connection = pymysql.connect()
 
 
 cursor = connection.cursor()
